@@ -39,7 +39,7 @@ color: white;
 
 /*----------HOME-------*/
 .container-home-outer {
-    background-image: url(/img/firstpage_bg.png);
+    background-image: url(img/firstpage_bg.png);
     background-size: cover;
     background-position: center;
 }
