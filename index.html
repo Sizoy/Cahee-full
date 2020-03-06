@@ -25,20 +25,21 @@
                 </div>
 
                 <nav
-                    class="pt-4 fixed-top navbar navbar-expand-md col-2 offset-8 col-md-9 offset-md-2 navbar-light buto">
+                    class=" pt-4 fixed-top navbar navbar-expand-md col-3 offset-9 col-sm-2 offset-sm-10 col-md-6 offset-md-6 navbar-light ">
 
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#naviga">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <div class="collapse navbar-collapse w-100  justify-content-end" id="naviga">
-                        <ul class="nav d-flex flex-column flex-md-row ">
-                            <li class="py-2 nav-item"><a href="#home" class="nav-link">home</a></li>
-                            <li class="py-2 nav-item"><a href="#about" class="nav-link">about</a></li>
-                            <li class="py-2 nav-item"><a href="#services" class="nav-link">services</a></li>
-                            <li class="py-2 nav-item"><a href="#" class="nav-link">gallery</a></li>
-                            <li class="py-2 nav-item"><a href="#" class="nav-link">blog</a></li>
-                            <li class="py-2 nav-item"><a href="#" class="nav-link">contact</a></li>
+                    <div class="collapse navbar-collapse w-100" id="naviga">
+                        <ul class="nav d-flex flex-column flex-md-row align-items-start">
+                            <li class="py-2  nav-item"><a href="#home" class="nav-link pl-0 pl-md-3">home</a></li>
+                            <li class="py-2 nav-item"><a href="#about" class="nav-link pl-0 pl-md-3">about</a></li>
+                            <li class="py-2 nav-item"><a href="#services" class="nav-link pl-0 pl-md-3">services</a>
+                            </li>
+                            <li class="py-2 nav-item"><a href="#gallery" class="nav-link pl-0 pl-md-3">gallery</a></li>
+                            <li class="py-2 nav-item"><a href="#" class="nav-link pl-0 pl-md-3">blog</a></li>
+                            <li class="py-2 nav-item"><a href="#" class="nav-link pl-0 pl-md-3">contact</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -149,38 +150,65 @@
         </div>
     </div>
 
-    <!--GALLERY
+    <!--GALLERY-->
 
-            <div class="gallery">
-                <div class="gallery__container container">
-                    <p class="title gallery__title">Gallery</p>
-                    <p class="subtitle gallery__subtitle">Consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                        ut
-                        labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo
-                        consequat.</p>
-                    <div class="gallery__photoes">
-                        <div class="photo1">
-                            <img src="img/gallery_photo1.png" alt="" width="100%" height="100%">
-                        </div>
-                        <div class="photo2">
-                            <img src="img/gallery_photo2.png" alt="">
-                        </div>
-                        <div class="photo3">
-                            <img src="img/gallery_photo3.png" alt="">
-                        </div>
-                        <div class="photo4">
-                            <img src="img/gallery_photo4.png" alt="">
-                        </div>
-                        <div class="photo5">
-                            <img src="img/gallery_photo5.png" alt="">
+    <div class="container-fluid container-gallery-outer" id="gallery">
+        <div class="container-xl h-100 ">
+            <div class="row">
+                <p class="col-12 col-md-4 offset-md-4 my-3 pl-5 title gallery__title">Gallery</p>
+            </div>
+
+            <div class="row">
+                <p class="col-12 col-md-6 offset-md-3 mt-0 mb-5 subtitle gallery__subtitle">Consectetur adipisicing
+                    elit, sed
+                    do
+                    eiusmod
+                    tempor incididunt
+                    ut
+                    labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo
+                    consequat.</p>
+            </div>
+
+            <div class="row d-flex flex-column align-items-center flex-wrap justify-content-around">
+
+                <div class="row col-12 flex-column flex-md-row align-items-center justify-content-around">
+
+                    <div class="col-10 col-md-8 px-0 my-1 my-md-0 gallery__flex">
+                        <img src="img/gallery_photo1.png" alt="a" width="100%" height="100%">
+                    </div>
+
+                    <div class="col-10 col-md-4 px-0 ">
+                        <div class="row">
+                            <div class="col-12 my-1 my-md-0 gallery__flex">
+                                <img src="img/gallery_photo2.png" alt="b" width="100%" height="100%">
+                            </div>
+
+                            <div class="col-12 my-1 my-md-0 gallery__flex">
+                                <img src="img/gallery_photo3.png" alt="c" width="100%" height="100%">
+                            </div>
                         </div>
                     </div>
-                    <button class="button gallery__button">view more</button>
+
                 </div>
+
+                <div class="row col-12 gallery__flex">
+                    <div class="col-10 col-md-6 px-0 my-1 my-md-0 gallery__flex">
+                        <img src="img/gallery_photo4.png" alt="d" width="100%" height="100%">
+                    </div>
+                    <div class="col-10 col-md-6 px-0 my-1 my-md-0 gallery__flex">
+                        <img src="img/gallery_photo5.png" alt="e" width="100%" height="100%">
+                    </div>
+                </div>
+
             </div>
--->
+            <div class="row">
+                <button class="col-6 offset-3 col-md-2 offset-md-5 mb-5 button gallery__button">view more</button>
+            </div>
+        </div>
+    </div>
+
     <!--SUBSCRIPE
 
             <div class="subscribe">
