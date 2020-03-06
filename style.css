@@ -333,8 +333,9 @@ body {
     position: relative;
 }
 .blog__photo1:hover, .blog__photo2:hover, .blog__photo3:hover {
-    transform: rotate(360deg);
-    transition-duration: .8s;
+    transform: rotate(92160deg);
+    
+    transition-duration: 75s;
 }
 .blog__photo1 {
     background-image: url("img/blog_photo1.png");
@@ -392,10 +393,7 @@ body {
     margin-top: 5%;
     background-color: #f72b3b;
 }
-button:hover {
-    transform: scale(1.2, 1.2);
-    transition-duration: .5s;
-}
+
 
 /*--------CONTACT----------*/
 .contact {
